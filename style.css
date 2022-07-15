@@ -93,9 +93,10 @@ section{
 .hero-items{
     display: flex;
 }
-.hero-content{
+.hero-content {
     width: 48%;
     position: relative;
+    justify-content: space-between;
 }
 .hero-content h1 {
     font-size: 2rem;
@@ -165,11 +166,11 @@ section{
 .service-box {
     margin-right: 1rem;
     margin-bottom: 1rem;
-    padding:3rem;
+    padding: 3rem;
     border-radius: 1rem;
     background: #f7e5e3;
-    width: 50%;
     display: flex;
+    justify-content: space-between;
 }
 .service-icon {
     margin-right: 2rem;
@@ -190,7 +191,35 @@ section{
     font-weight: 400;
     line-height: 2rem;
 }
+/**************** gellary-area *****************/
+.gellary-items{
+    display: flex;
+}
+.gellary-widget {
+    width: 32%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    box-shadow: 0.2rem 0.2rem 2rem #ddd;
+    border-radius: 1rem;
+    padding: 0 0 2rem 0;
+}
+.gellary-widget figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem 1rem 0 0;
+}
+.gellary-widget figcaption {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-transform: capitalize;
+}
 /******* testimonials-section ****************/
+.testimonial-section{
+    background-color: #EBF8FF;
+}
 .testimonials-items{
     display: flex;
 }
@@ -232,6 +261,11 @@ section{
     color: #ff5200;
     font-size: 1rem;
     margin-bottom: 1rem;
+    transition: .5s ease-in-out;
+}
+.test-content a:hover{
+    color: blue;
+    letter-spacing: 0.1rem;
 }
 /************ footer-area *************/
 .footer-area{
