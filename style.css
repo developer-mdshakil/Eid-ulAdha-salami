@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    overflow-x: hidden;
+}
 body,h1,h2,h3,h4,h5,h6,a,span,strong{
     font-family: 'Poppins', sans-serif;
 }
@@ -110,6 +113,7 @@ section{
 }
 .hero-content img{
     width: 100%;
+    height: auto;
 }
 .play-button {
     position: absolute;
@@ -123,4 +127,126 @@ section{
 }
 .play-button:hover{
     color: #ff5200;
+}
+/************* about-section ************/
+#about-content {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+#about-content p{
+    line-height: 2rem;
+}
+/*************** service-section ***************/
+.service-section{
+    background-image: url(/images/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.servcie-title {
+    text-align: center;
+    padding: 0 18rem;
+    margin-bottom: 2rem;
+}
+.servcie-title h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.servcie-title p {
+    font-size: 1rem;
+    color: #b18f8f;
+    font-weight: 400;
+}
+.service-items {
+    display: flex;
+    padding: 0 2rem;
+}
+.service-box {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    padding:3rem;
+    border-radius: 1rem;
+    background: #f7e5e3;
+    width: 50%;
+    display: flex;
+}
+.service-icon {
+    margin-right: 2rem;
+}
+.service-icon span {
+    display: block;
+    color: #2980b9;
+    font-size: 2rem;
+    position: relative;
+    top: -1rem;
+}
+.service-content h4 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.service-content p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+/******* testimonials-section ****************/
+.testimonials-items{
+    display: flex;
+}
+.testimonials-box {
+    width: 33%;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    background: #ecf0f1;
+    border: 0.063rem solid #ddd;
+    border-radius: 1rem;
+}
+.testimonials-box:first-child{
+    margin-left: 0;
+}
+.testimonials-box:last-child{
+    margin-right: 0;
+}
+.testimonials-box img{
+    width: 100%;
+}
+.testimonials-box img{
+    border-radius: 1rem 1rem 0 0;
+}
+.test-content{
+    padding: 1rem;
+}
+.test-content h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.4rem;
+    font-weight: 600;
+}
+.test-content p{
+    font-size: 0.8rem;
+    color: rgb(117, 112, 112);
+    margin-bottom: 0.5rem;
+}
+.test-content a {
+    display: inline-block;
+    color: #ff5200;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+/************ footer-area *************/
+.footer-area{
+    background: #000;
+    padding: 2rem;
+    text-align: center;
+}
+.footer-area p{
+   color: #ff5200;
+   margin-bottom: 1rem;
+   font-size: 1.6rem;
+   font-weight: 700;
+}
+.footer-area span{
+    color: #fff;
+    display: block;
+    font-size: 1rem;
 }
